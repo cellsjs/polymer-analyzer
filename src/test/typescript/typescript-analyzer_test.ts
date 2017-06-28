@@ -71,7 +71,7 @@ suite('TypeScriptParser', () => {
             assert.include(baseTypes, htmlElement);
             const properties = checker.getPropertiesOfType(type);
             const ownProperties = properties.filter(
-                (p) => p.getDeclarations().some((d) => d.parent === class_));
+                (p) => p.getDeclarations()!.some((d) => d.parent === class_));
             assert.equal(ownProperties.length, 1);
             assert.equal(ownProperties[0].name, 'foo');
           }

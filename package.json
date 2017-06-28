@@ -84,7 +84,7 @@
     "parse5": "^2.2.1",
     "shady-css-parser": "0.0.8",
     "strip-indent": "^2.0.0",
-    "typescript": "^2.2.0"
+    "typescript": "^2.4.1"
   },
   "engines": {
     "node": ">=6"
